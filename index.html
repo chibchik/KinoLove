@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinoLove — Про нас</title>
+    <meta description ="KinoLove - це простір для тих, хто не просто дивиться кіно, а відчуває його.", keywords = "KinoLove, фільми, рецензії">
+    <link rel="stylesheet" href=".\css\style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>KinoLove</span>
+            </div>
+            <nav>
+            <ul class="nav-list">
+                <li class="dropdown">
+                    <a class="dropdown-toggle">▼</a>
+                    <ol class="dropdown-menu">
+                        <li><a href=".\collections\index.html">Каталог</a></li>
+                        <li><a href="#">Рецензії</a></li>
+                    </ol>
+                </li>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href=".\login.html" class="btn-login">Вхід</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Покращуємо кінокультуру разом</h1>
+            <p>KinoLove — це простір для тих, хто не просто дивиться кіно, а відчуває його.</p>
+            <a href="#about" class="btn-primary">Дізнатись більше</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Про організацію</h2>
+            <section class="media-showcase">
+                <div class="section-header">
+                    <h2>Відео про нас</h2>
+                </div>
+
+                <div class="video-grid">
+                    <article class="video-card">
+                        <div class="video-container">
+                            <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/UNB7_1YKmIo?si=Kha_TSdflqDDAwuE" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; 
+                            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+                            web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>  
+                            </iframe>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="video-container">
+                            <video controls poster="../src/posters/poster.jpg">
+                                <source src=".\src\promotion-video.mp4" type="video/mp4">
+                                Ваш браузер не підтримує відтворення відео.
+                            </video>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <p>Ми — команда ентузіастів-кінолюбів, які об'єдналися заради спільної мети. Наш проект створений для залучення поціновувачів кіно до обговорення, написання власних рецензій та поширення якісного авторського контенту в Україні.</p>
+            <section class="advantages-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Чому обирають KinoLove?</h2>
+                    </div>
+                    
+                    <div class="table-responsive">
+                        <table class="compare-table">
+                            <caption>Порівняння платформ для перегляду кіно в Україні</caption>
+                            
+                            <thead>
+                                <tr>
+                                    <th>Критерій оцінки</th>
+                                    <th class="brand-col">KinoLove</th>
+                                    <th>Офіційні кінотеатри (VOD)</th>
+                                    <th>Піратські сайти</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <td>Режисерські коментарі</td>
+                                    <td class="brand-col">Є (Ексклюзив)</td>
+                                    <td>Немає</td>
+                                    <td>Немає</td>
+                                </tr>
+                                <tr>
+                                    <td>Реклама у відео</td>
+                                    <td class="brand-col">Повністю відсутня</td>
+                                    <td>Тільки у преміум-підписці</td>
+                                    <td>Агресивна реклама</td>
+                                </tr>
+                                <tr>
+                                    <td>Авторські підбірки</td>
+                                    <td class="brand-col">Щотижня від критиків</td>
+                                    <td>Базові алгоритми</td>
+                                    <td>Відсутні</td>
+                                </tr>
+                                <tr>
+                                    <td>Вартість доступу</td>
+                                    <td class="brand-col">Безкоштовно (Бета)</td>
+                                    <td>Від 150 грн/міс</td>
+                                    <td>Безкоштовно</td>
+                                </tr>
+                                <tr>
+                                    <td>Якість відео (4K)</td>
+                                    <td class="brand-col">Без обмежень</td>
+                                    <td>За додаткову плату</td>
+                                    <td>Рідкість (часто 720p)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        
+        </div>
+    </section>
+
+    <section class="goals">
+        <div class="container">
+            <h2>Наші цілі</h2>
+            <div class="goals-grid">
+                <div class="goal-item">
+                    <h3>Спільнота</h3>
+                    <p>Створення найбільшого ком'юніті авторів рецензій в Україні.</p>
+                </div>
+                <div class="goal-item">
+                    <h3>Якість</h3>
+                    <p>Поширення експертного погляду на сучасний та класичний кінематограф.</p>
+                </div>
+                <div class="goal-item">
+                    <h3>Розвиток</h3>
+                    <p>Підтримка локальних кіноклубів та культурних ініціатив.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Контакти: +380 (XX) XXX-XX-XX | contact@kinolove.com</p>
+            <p>&copy; 2026 KinoLove. Всі права захищені.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

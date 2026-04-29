@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вхід — KinoLove</title>
+    <link rel="stylesheet" href=".\css\style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">KinoLove</div>
+            <nav>
+                <ul class="nav-list">
+                <li class="dropdown">
+                    <a class="dropdown-toggle">▼</a>
+                    <ol class="dropdown-menu">
+                        <li><a href=".\collections\index.html">Каталог</a></li>
+                        <li><a href="#">Рецензії</a></li>
+                    </ol>
+                </li>
+                <li><a href=".\index.html">Головна</a></li>
+                <li><a href="register.html">Реєстрація</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="auth-wrapper">
+            <div class="auth-box">
+                <h2>Вхід в акаунт</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль</label>
+                        <input type="password" id="password" name="password" required placeholder="Введіть пароль">
+                    </div>
+                    <button type="submit" class="btn-primary btn-block">Увійти</button>
+                </form>
+                <p class="auth-link">Немає акаунту? <a href="register.html">Зареєструватися</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 KinoLove. Всі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>
