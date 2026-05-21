@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KinoLove — Про нас</title>
+        <meta name="description" content="KinoLove - це простір для тих, хто не просто дивиться кіно, а відчуває його.">
+        <meta name="keywords" content="KinoLove, фільми, рецензії">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <img src = 'https://cdn-icons-png.flaticon.com/512/3163/3163508.png' id = "task2">
+        
+        <div id="app">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <span>KinoLove</span>
+                    </div>
+                    <nav>
+                    <ul class="nav-list">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle">▼</a>
+                            <ol class="dropdown-menu">
+                                <li><a href="..\collections\index.html">Каталог</a></li>
+                                <li><a href="../reviews/index.html">Рецензії</a></li>
+                                <li><a href="#" >Js Demo</a></li>
+                            </ol>
+                        </li>
+                        <li><a href="..\index.html">Головна</a></li>
+                        <li><a href="..\login.html" class="btn-login">Вхід</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </header>
+
+        <main class="container">
+            <h1>Блок 1</h1>
+            <section class="task-section">
+                <h2>1. Зміна шрифту</h2>
+                <div class="input-controls">
+                    <input type="text" id="font-text-input" placeholder="Введіть текст" value="KinoLove">
+                    <input type="text" id="font-size-input" placeholder="Розмір (напр. 30px)" value="30px">
+                    <button id="apply-font-btn" class="btn-primary">Застосувати</button>
+                </div>
+                <div id="font-output-area" class="output-box"></div>
+            </section>
+
+            <section class="task-section">
+                <h2>3. Зміна параграфів через setAttribute</h2>
+                <p>Цей параграф змінить розмір на 15px.</p>
+                <p id = "second-paragraph">Ще один параграф для перевірки.</p>
+                <button id="trigger-p-change" class="btn-primary">Змінити параграфи зараз</button>
+            </section>
+
+            <section class="task-section">
+                <h2>4. Текстовий годинник</h2>
+                <div id="clock" class="clock-display">00:00:00</div>
+            </section>
+
+            <section class="task-section">
+                <h2>5. Ефект поступового витирання</h2>
+                <div id="wipe-target" class="wipe-box">
+                    <h3>Ця частина буде стерта</h3>
+                    <p>Натисніть кнопку, щоб побачити ефект таймера.</p>
+                </div>
+                <button id="wipe-btn" class="btn-primary">Почати витирання</button>
+                <button id="reset-wipe-btn" class="btn-primary">Відновити</button>
+            </section>
+            
+            
+            <h1>Блок 2</h1>
+            <section class="task-section">
+                <h2>3. Зміна кольору квадрата</h2>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px; border: 1px solid #ccc;">
+                    <select id="color-picker" size="5">
+                        <option value="red">Червоний</option>
+                        <option value="blue">Синій</option>
+                        <option value="green">Зелений</option>
+                        <option value="yellow">Жовтий</option>
+                        <option value="purple">Фіолетовий</option>
+                    </select>
+                    <div id="color-square" style="width: 100px; height: 100px; background-color: black;"></div>
+                </div>
+            </section>
+
+            <section class="task-section">
+                <h2>7. Розрахунок іпотеки</h2>
+                <label>perepl:</label>
+                <div id = "perepl" class = "output-box"></div>
+            </section>
+
+            <section class="task-section">
+                <h2>9. Сортування масиву об'єктів</h2>
+                <label>Початковий масив:</label>
+                <div id = "inner-arr" class = "output-box"></div>
+                <label>sortByName:</label>
+                <div id = "sort-by-name" class = "output-box"></div>
+                <label>sortByHeight:</label>
+                <div id = "sort-by-height" class = "output-box"></div>
+            </section>
+
+            <h1>Блок 3</h1>
+            <section class="task-section">
+                <h2>4. Регулярний вираз</h2>
+                <label>Text:</label>
+                <div id = "text-for-reg" class = "output-box">
+                    <textarea type="text" id="text-for-reg-input" placeholder="Текст для пошуку номеру картки">Іван вчора втратив свою кредитку, її номер 1178-9087-2384-8787. Тому він пішов в банк і описав ситуацію. Там пішли йому на зустріч і видали нову кредитку під номером: 1103-8899-0811-1722.</textarea>
+                </div>
+                <label>result:</label>
+                <div id = "result-of-reg" class = "output-box"></div>
+            </section>
+        </main>
+
+        </div>
+        <script type="module" src="./main.js"></script>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2026 KinoLove. Всі права захищені.</p>
+            </div>
+        </footer>
+    </body>
+</html>
