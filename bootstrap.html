@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo — KinoLove</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap-grid.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>KinoLove</span>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle"></a>
+                        <ol class="dropdown-menu">
+                            <li><a href="./collections/index.html">Каталог</a></li>
+                            <li><a href="./reviews/index.html">Рецензії</a></li>
+                            <li><a href="./js/index.html">JS demo</a></li>
+                            <li><a href="./bootstrap.html">Bootstrap demo</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="./index.html">Головна</a></li>
+                    <li><a href="./login.html" class="btn-login">Вхід</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main class="bootstrap-container-fixed py-5">
+        <div class="demo-title">
+            <h2>Сторінка статистики</h2>
+            <p class="demo-subtitle">
+                Ми зібрали для вас статистику KinoLove. Дякуємо за активну участь в розвитку нашої спільноти!
+            </p>
+        </div>
+
+        <section class="row-section row1-container">
+            <div class="row-info-card">
+                <strong>Статистика KinoLove за останній тиждень</strong>
+            </div>
+            
+            <div class="row custom-gutter justify-content-start align-items-stretch">
+                
+                <div class="col-md-5 offset-md-1 col-lg-6 offset-lg-0 mb-4 mb-md-0">
+                    <div class="row1-block text-center h-100">
+                        <h4>Кінокритики</h4>
+                        <p class="mb-0">Активні кінокритики на платформі. Дані оновлюються в реальному часі.</p>
+                        <hr class="my-3 opacity-25">
+                        <div class="d-flex justify-content-around text-start">
+                            <div><strong>Автори:</strong> +1,240</div>
+                            <div><strong>Рецензії:</strong> 8,940</div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-5 col-lg-6">
+                    <div class="row1-block text-center h-100">
+                        <h4>Перегляди</h4>
+                        <p class="mb-0">Статистика переглядів та оцінок фільмів за останній тиждень.</p>
+                        <hr class="my-3 opacity-25">
+                        <div class="d-flex justify-content-around text-start">
+                            <div><strong>Перегляди:</strong> 42.5K год</div>
+                            <div><strong>Середній рейтинг:</strong> 4.8★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="row-section row2-container">
+            <div class="row-info-card">
+                <strong>Популярні жанри</strong>
+            </div>
+     
+            <div class="row custom-gutter">
+                
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="row2-block text-center h-100">
+                        <h5>Екшн</h5>
+                        <p class="small mb-0">Популярні представники: "Джон Вік", "Матриця", "Міцний горішок".</p>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="row2-block text-center h-100 bg-opacity-75">
+                        <h5>Комедія</h5>
+                        <p class="small mb-0">Популярні представники: «Тед Лассо», «1+1», «Похмілля у Вегасі».</p>
+                    </div>
+                </div>
+
+                
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="row2-block text-center h-100">
+                        <h5>Драма</h5>
+                        <p class="small mb-0">Популярні представники: «Список Шиндлера», «Форрест Гамп».</p>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="row2-block text-center h-100 bg-opacity-75">
+                        <h5>Хоррор</h5>
+                        <p class="small mb-0">Популярні представники: «Екзорцист», «Хелловін», «Сяйво».</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+        <section class="row-section row3-container">
+            <div class="row-info-card">
+                <strong>Фільм місяця</strong>
+            </div>
+
+            <div class="row custom-gutter">     
+                <div class="col-6 d-none d-sm-block">
+                    <div class="row3-block-large">
+                        <h4>Інтерстеллар</h4>
+                        <p class="small mb-0">Шедевр Крістофера Нолана про космічну подорож крізь червоточину заради порятунку людства. Вражаючий науковий реалізм та саундтрек Ганса Ціммера.</p>
+                    </div>
+                </div>
+
+                <div class="col-6 offset-6 offset-sm-0">
+                    <div class="row custom-gutter">
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="row3-block-nested">
+                                <span class="fw-bold text-warning fs-5">9.8</span>
+                                <span class="small text-muted">Рейтинг</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="row3-block-nested">
+                                <span class="fw-bold text-warning fs-5">2014</span>
+                                <span class="small text-muted">Рік випуску</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="row3-block-nested">
+                                <span class="fw-bold text-warning fs-5">169 хв</span>
+                                <span class="small text-muted">Тривалість</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="row3-block-nested">
+                                <span class="fw-bold text-warning fs-5">Oscar</span>
+                                <span class="small text-muted">Спецефекти</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Контакти: +380 (XX) XXX-XX-XX | contact@kinolove.com</p>
+            <p>&copy; 2026 KinoLove. Всі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>
